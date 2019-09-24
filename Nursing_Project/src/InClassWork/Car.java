@@ -42,5 +42,15 @@ public class Car {
 	public void showSpeed() {
 		System.out.println("The Current Speed is:   " + speed);
 	}
+	//brake() Samantha Mikuski
+			public boolean brake() {
+				if (started = true) {
+					speed = speed - 5;
+					return true;
+				} else {
+					System.out.println("Error!");
+					return false;
+				}
+			}
 
 }
